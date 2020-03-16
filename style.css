@@ -116,6 +116,7 @@ nav a:hover::before {
 .about-text{ 
     background-color: #b82858;
     font-size: 1.3em; 
+    text-align: center; 
     width: 800px;
     padding: 30px;
  
@@ -141,6 +142,13 @@ img.rounded-corners{ /*profile picture*/
 .parallax { 
     min-height: 300px;
     padding-bottom: 75rem; 
+}
+
+.unv_1 {
+    text-align: center; 
+    z-index: 100;
+    color: aquamarine;
+    top: 100px;
 }
 
 #txtbox_1{ 
