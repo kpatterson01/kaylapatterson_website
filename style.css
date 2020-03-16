@@ -104,25 +104,37 @@ nav a:hover::before {
 
 /*About Me*/
 .about {
+    min-height: 700px; 
     background: #222;
     color: white; 
+}
+
+.about-title {
+    margin-left: 700px;  
+    margin-top: 100px; 
 }
 .about-text{ 
     background-color: #b82858;
     font-size: 1.3em; 
     width: 800px;
     padding: 30px;
-    margin: 0px; 
+ 
+    margin-left: 415px; /* Moving textbox */
+    margin-top: -350px; 
 }
 
 .rounded-corners{
     vertical-align: middle; 
+   
 }
 img.rounded-corners{ /*profile picture*/
   width: 275px;
   height: 400px;
-  border-radius: 300%;
+  border-radius: 300%; 
+}
 
+.rounded-corners {
+    margin-top: 0px; 
 }
 
 /*Education*/
