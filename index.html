@@ -20,15 +20,18 @@
 
     <body>
         <header>
-            <a class="navbar-brand colorText" href="#" >Kayla Patterson</a>
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            
+            <nav class="navbar-fixed-top"> <!--Keeps navbar at the top-->
+                <div class="container-fluid">
+                    <a class="navbar-brand colorText" href="#" >Kayla Patterson</a>
+                    <ul>
+                        <li class= "nav-item pull-right"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class= "nav-item pull-right"><a class="nav-link js-scroll-trigger" href="#Skills">Skills</a></li>
+                        <li class= "nav-item pull-right"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                        <li class= "nav-item pull-right"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                        <li class= "nav-item pull-right"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -36,7 +39,8 @@
             <img src="./img/bg_1.jpg" alt="bg" width="100%" height="100%">
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
+                <div class="container">
             
                 
                 <div class="rounded-corner">
@@ -46,8 +50,7 @@
                     </span>
 
                
-
-                
+             </div>
         </section>
 
         <footer>
