@@ -142,6 +142,8 @@ img.rounded-corners{ /*profile picture*/
 .parallax { 
     min-height: 300px;
     padding-bottom: 75rem; 
+    padding-top: 5rem;
+    background: transparent;
 }
 
 .unv_1 {
@@ -149,6 +151,11 @@ img.rounded-corners{ /*profile picture*/
     z-index: 100;
     color: aquamarine;
     top: 100px;
+}
+
+.info {
+    z-index: 2;
+    position: relative; 
 }
 
 #txtbox_1{ 
