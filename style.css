@@ -147,15 +147,12 @@ img.rounded-corners{ /*profile picture*/
 }
 
 .unv_1 {
+    z-index: 2;
+    position: relative;
     text-align: center; 
     z-index: 100;
     color: aquamarine;
     top: 100px;
-}
-
-.info {
-    z-index: 2;
-    position: relative; 
 }
 
 #txtbox_1{ 
