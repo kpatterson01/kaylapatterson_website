@@ -162,7 +162,15 @@ img.rounded-corners{ /*profile picture*/
     height: 500px;  
 }
 
+.unv_1:hover {
+    font-size: 0; 
+}
 
+.unv_1:hover:after {
+    content: attr(data-hover); 
+    font-size: 24px; 
+    line-height: 28px; 
+}
 
 
 

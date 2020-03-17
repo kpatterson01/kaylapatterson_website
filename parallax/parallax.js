@@ -159,7 +159,7 @@
   // Parallax Instance Methods
 
   $.extend(Parallax.prototype, {
-    speed:    0.2,
+    speed:    1.5,
     bleed:    0,
     zIndex:   -100,
     iosFix:   true,
