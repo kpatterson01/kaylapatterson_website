@@ -172,8 +172,11 @@ img.rounded-corners{ /*profile picture*/
     line-height: 28px; 
 }
 
-
-
+/*Experience*/
+.experience {
+    min-height: 1000px; 
+   
+}
 
 /*Footer*/
 footer {
