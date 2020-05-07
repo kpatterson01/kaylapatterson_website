@@ -178,6 +178,12 @@ img.rounded-corners{ /*profile picture*/
    
 }
 
+.exp_1 {
+    background-color: #b82858;
+    height: 10px;  
+    width: 475px; 
+}
+
 /*Footer*/
 footer {
     position: static;
