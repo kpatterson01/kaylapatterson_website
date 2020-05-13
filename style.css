@@ -239,6 +239,13 @@ slice3.container-fluid{
     width: 475px; 
 }
 
+/*Skillls*/
+.skills {
+    min-height: 700px; 
+    background: #222;
+    color: white;   
+}
+
 /*Footer*/
 footer {
     position: static;
